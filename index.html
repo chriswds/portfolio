@@ -5,16 +5,19 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        /* Assurez-vous que le html et le body occupent toute la hauteur et largeur */
         html, body {
+            height: 100%;
             margin: 0;
             padding: 0;
-            width: 100%;
-            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             overflow: hidden;
         }
         iframe {
-            width: 100%;
-            height: 100%;
+            width: 100%;  /* Utilisez 100% de la largeur de l'écran */
+            height: 100vh; /* Hauteur à 100% de la fenêtre de visualisation */
             border: none;
             display: block;
         }
@@ -22,7 +25,7 @@
 </head>
 <body>
     <iframe
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fb0c2O1ZApsMZcHbjO0idIU%2FPortfolio%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D148-1594%26viewport%3D-1100%252C-835%252C0.15%26t%3DSCyKRSAi1xnNeaFe-1%26scaling=width&starting-point-node-id=148%253A1594%26mode%3Ddesign"
+        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fb0c2O1ZApsMZcHbjO0idIU%2FPortfolio%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D148-1594%26viewport%3D-1100%252C-835%252C0.15%26t%3DSCyKRSAi1xnNeaFe-1%26scaling=scale-down&starting-point-node-id=148%253A1594%26mode%3Ddesign"
         allowfullscreen
         allow="clipboard-write"
     ></iframe>
