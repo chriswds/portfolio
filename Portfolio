@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta viewport -->
     <title>Portfolio</title>
     <style>
         html, body {
@@ -13,9 +14,19 @@
             background-color: #f5f5f5;
         }
         iframe {
-            width: 100vw; /* pleine largeur */
-            height: 100vh; /* pleine hauteur */
+            width: 100vw; /* Pleine largeur pour les écrans */
+            height: 100vh; /* Pleine hauteur pour les écrans */
             border: none;
+        }
+
+        /* Ajustements pour les écrans mobiles */
+        @media only screen and (max-width: 768px) {
+            iframe {
+                width: 100%; /* S'adapte à la largeur de l'écran mobile */
+                height: 100%; /* S'adapte à la hauteur de l'écran mobile */
+                margin: 0; /* Enlève les marges */
+                padding: 0; /* Enlève les espacements */
+            }
         }
     </style>
 </head>
