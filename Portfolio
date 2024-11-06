@@ -11,15 +11,15 @@
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f5f5f5;
         }
         a {
-            padding: 15px 30px;
+            padding: 15px 25px;
             background-color: #0073e6;
-            color: white;
+            color: #fff;
             font-size: 18px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
             transition: background-color 0.3s ease;
         }
         a:hover {
@@ -28,7 +28,7 @@
     </style>
 </head>
 <body>
-    <a href="https://www.figma.com/proto/b0c2O1ZApsMZcHbjO0idIU/Portfolio?node-id=369-1109&t=cdx6zQR5vAyRzJLO-1" target="_blank">
+    <a href="https://www.figma.com/proto/b0c2O1ZApsMZcHbjO0idIU?node-id=0-1&t=QjkwoNIvfrbRpPIT-6" target="_blank">
         Voir le prototype du portfolio
     </a>
 </body>
